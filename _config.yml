@@ -1,0 +1,100 @@
+# Welcome to Jekyll!
+#
+title: Jorge Moratilla
+email: jorge@moratilla.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Soy Jorge Moratilla, curioso y apasionado de la informática.  Este es mi blog
+  en el que escribo mis experiencias y curiosidades.
+twitter_username: jmoratilla
+github_username:  jmoratilla
+logo: /assets/img/jmoratilla.jpg
+
+# Authors
+author:
+  name: Jorge Moratilla
+  email: jorge@moratilla.com
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-hydejack
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-default-layout
+  - jekyll-twitter-plugin
+
+# Google Analytics
+google_analytics: UA-124601299-1
+
+# Hydejack customization
+accent_image: /assets/img/background.jpg
+font_heading: "'Roboto Slab', Helvetica, Arial, sans-serif"
+google_fonts: "Roboto+Slab:700|Noto+Sans:400,400i,700,700i"
+
+# This text will appear in a `<small>` tag in the footer of every page.
+copyright:             © 2020. Todos los derechos reservados.
+
+# Format of the permalinks
+# permalink: /:categories/:year/:month/:day/:title/
+# Produces a cleaner folder structure when using categories
+permalink: /:categories/:year/:month/:title/
+
+# Pagination v2 configuration
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  repositories:
+    output: true
+    permalink: /repositories/:path/
+  talks:
+    output: true
+    permalink: /talks/:path/
+  books:
+    output: true
+    permalink: /books/:path/
+collections_dir: /collections/
+
+# Sidebar
+defaults:
+  - scope:
+      path: pages/about.md
+    values:
+      menu: true
+      order: 1
+  - scope:
+      path: repositories.md
+    values:
+      menu: true
+      order: 2
+  - scope:
+      path: talks.md
+    values:
+      menu: true
+      order: 3
+  - scope:
+      path: books.md
+    values:
+      menu: true
+      order: 4
+  - scope:
+      path: projects.md
+    values:
+      menu: true
+      order: 5
+
+
+
+
+# Exclude from processing.
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
