@@ -3,8 +3,9 @@
 title: Jorge Moratilla
 email: jorge@moratilla.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Soy Jorge Moratilla, curioso y apasionado de la informática.  Este es mi blog
-  en el que escribo mis experiencias y curiosidades.
+  Hi, I'm Jorge Moratilla, curious and passionate IT guy.
+    This is my web site, it may contain nuts and bolts.
+    The ideas exposed here are my own.
 twitter_username: jmoratilla
 github_username:  jmoratilla
 logo: /assets/img/jmoratilla.jpg
@@ -22,6 +23,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-default-layout
   - jekyll-twitter-plugin
+  - jekyll-youtube
 
 # Google Analytics
 google_analytics: UA-124601299-1
@@ -32,7 +34,7 @@ font_heading: "'Roboto Slab', Helvetica, Arial, sans-serif"
 google_fonts: "Roboto+Slab:700|Noto+Sans:400,400i,700,700i"
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2020. Todos los derechos reservados.
+copyright:             © 2020. All rights reserved.
 
 # Format of the permalinks
 # permalink: /:categories/:year/:month/:day/:title/
@@ -92,9 +94,6 @@ defaults:
     values:
       menu: true
       order: 5
-
-
-
 
 # Exclude from processing.
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
