@@ -14,6 +14,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate-v2"
   gem "jekyll-default-layout"
   gem "jekyll-twitter-plugin"
+  gem "jekyll-youtube"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
