@@ -95,3 +95,17 @@ defaults:
 
 # Exclude from processing.
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
+
+# Building the Site
+
+# file: _config.yml
+compress_html:
+  comments:  ["<!-- ", " -->"]
+  clippings: all
+  endings:   all
+
+sass:
+  style:     compressed
+
+hydejack:
+  use_lsi: true

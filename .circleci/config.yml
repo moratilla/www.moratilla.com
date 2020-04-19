@@ -26,7 +26,7 @@ jobs:
             - vendor/bundle
       - run:
           name: Jekyll build
-          command: bundle exec jekyll build
+          command: JEKYLL_ENV=production bundle exec jekyll build --lsi
       - persist_to_workspace:
           root: ./
           paths:
