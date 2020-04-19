@@ -19,9 +19,9 @@ author:
 markdown: kramdown
 theme: jekyll-theme-hydejack
 plugins:
-  - jekyll-feed
-  - jekyll-paginate-v2
   - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-paginate
   - jekyll-twitter-plugin
   - jekyll-youtube
 
@@ -37,17 +37,11 @@ google_fonts: "Roboto+Slab:700|Noto+Sans:400,400i,700,700i"
 copyright:             © 2020. All rights reserved.
 
 # Format of the permalinks
-permalink: /:categories/:year/:month/:title/
+permalink: /:year/:month/:title/
 
-# Pagination v2 configuration
-pagination:
-  enabled: true
-  per_page: 10
-  permalink: '/page/:num/'
-  title: ' - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+# Pagination
+paginate: 10
+paginate_path: /page-:num/
 
 # Collections
 collections:
@@ -97,8 +91,6 @@ defaults:
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
 
 # Building the Site
-
-# file: _config.yml
 compress_html:
   comments:  ["<!-- ", " -->"]
   clippings: all
