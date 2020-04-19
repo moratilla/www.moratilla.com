@@ -1,4 +1,4 @@
 # Footer section
 footer:
-  - { text: "Cookie Policy", link: '/cookie-policy'}
-  - { text: "Contact", link: '/pages/about'}
+  - { text: "Cookie Policy", link: '/cookie-policy/'}
+  - { text: "Contact", link: '/about/'}
