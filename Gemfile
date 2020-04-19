@@ -10,9 +10,10 @@ gem "html-proofer"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "jekyll-default-layout"
   gem "jekyll-feed"
   gem "jekyll-paginate"
-  gem "jekyll-default-layout"
+  gem "jekyll-sitemap"
   gem "jekyll-twitter-plugin"
   gem "jekyll-youtube"
 end
