@@ -1,0 +1,31 @@
+name: Ruby
+
+on:
+  push:
+    branches: [ feat_github_actions ]
+  pull_request:
+    branches: [ feat_github_actions ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby 2.5
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.5.x
+    - name: Build and test with Rake
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+        JEKYLL_ENV=production bundle exec jekyll build --lsi
+    - name: Upload artifact
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        # Artifact name
+        name: site
+        # Directory containing files to upload
+        path: _site
