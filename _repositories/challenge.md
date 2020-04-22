@@ -10,7 +10,7 @@ description: >
 
 * [Repository](https://github.com/jmoratilla/devops-challenge.git)
 
-## Descripción
+## Description
 
 The goal for this repository was to show a scalable infrastructure able to
  support deployment of a microservices based architecture for an application.

@@ -10,7 +10,7 @@ description: >
 
 * [Repositorio](https://github.com/jmoratilla/ops-tools)
 
-## Descripción
+## Description
 
 ![sorting thoughts](/assets/img/undraw_sorting_thoughts_6d48.png){:.lead}
 Image provided by [undraw.co](https://undraw.co/illustrations)
