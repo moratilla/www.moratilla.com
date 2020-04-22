@@ -5,10 +5,10 @@ description:
   Index of my personal repositories
 ---
 
-{% for repo in site.repositories %}
+{% for item in site.repositories %}
 
-<h2><a href="{{ repo.url | prepend: site.baseurl }}">{{ repo.title }}</a></h2>
+<h2><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></h2>
 
-<p class="post-excerpt">{{ repo.description | truncate: 160 }}</p>
+<p class="post-excerpt">{{ item.description | truncate: 160 }}</p>
 
 {% endfor %}  
