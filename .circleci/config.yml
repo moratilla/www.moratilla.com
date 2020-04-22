@@ -46,6 +46,14 @@ jobs:
       - run:
           name: Upload to s3
           command: ~/.local/bin/aws s3 sync ./_site s3://$S3_BUCKET_NAME/ --delete --acl public-read
+      - run:
+          name: Invalid cache
+          command: |
+            curl -X POST "https://api.cloudflare.com/client/v4/zones/${CF_DOMAIN}/purge_cache" \
+            -H "X-Auth-Email: ${CF_USERNAME}" \
+            -H "X-Auth-Key: ${CF_API_KEY}" \
+            -H "Content-Type: application/json" \
+            --data '{"purge_everything":true}'
 workflows:
   version: 2
   test-deploy:
