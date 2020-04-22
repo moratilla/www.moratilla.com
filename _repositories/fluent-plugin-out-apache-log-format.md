@@ -10,7 +10,7 @@ description: >
 
 * [Repository](https://github.com/jmoratilla/fluent-plugin-out-apache-log-format)
 
-## Descripción
+## Description
 
 While parsing logs from a rails website, I had to perform a plugin that converted a custom log format to an standard Apache common combined log format, that was read by the [SEO Log File Analyser](https://www.screamingfrog.co.uk/log-file-analyser/).
 
