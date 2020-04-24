@@ -59,6 +59,9 @@ collections:
   books:
     output: true
     permalink: /books/:path/
+  todos:
+    output: true
+    permalink: /todos/:path/
 
 # Sidebar
 defaults:
@@ -87,6 +90,11 @@ defaults:
     values:
       menu: true
       order: 5
+  - scope:
+      path: todos.md
+    values:
+      menu: true
+      order: 6
 
 # Exclude from processing.
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
