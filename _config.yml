@@ -23,6 +23,7 @@ plugins:
   - jekyll-default-layout
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-twitter-plugin
   - jekyll-youtube
