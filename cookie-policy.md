@@ -8,6 +8,8 @@ layout: page
 | Type | Duration | Provider | Purpose | Name | More Info | Opt-out |
 | ---  | -------- | --------- | --------- | ------ | --------------- | ------- |
 | Analytics | Persistent | Google Analytics | Identify the user activity | _ga, _gat, _gat_global | [More info](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es#overview) |
+| Analytics | Persistent | HotJar | Identifies the user activity | _hjid, _BEAMER_LAST_UPDATE | [More info](https://help.hotjar.com/hc/en-us/articles/115011789248-Hotjar-Cookies) |
+| Analytics | Persistent | Cloudflare | Identifies the user activity and redirects traffic to HTTPS | __cfduid | [More info](https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies) |
 
 
 Last updated: April 19, 2020
@@ -67,4 +69,4 @@ You can learn more about cookies: <a href="https://www.termsfeed.com/blog/cookie
 ## Contact Us
 If you have any questions about this Cookies Policy, You can contact us:
 
-* By visiting this page on our website: <a href="https://www.moratilla.com/pages/about/">https://www.moratilla.com/pages/about</a>
+* By visiting this page on our website: <a href="https://www.moratilla.com/about/">https://www.moratilla.com/about/</a>
