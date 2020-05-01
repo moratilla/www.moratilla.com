@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ToDo
-published: false
+published: true
 description:
   My own way to manage tasks.  Each link is a week, where all my tasks are listed.
 ---
