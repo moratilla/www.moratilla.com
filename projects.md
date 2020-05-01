@@ -2,8 +2,11 @@
 layout: page
 title: Projects
 description:
-  Not only work.  Passion.
+  Not only work.  Passion.   In review.
 ---
+
+In  this area I will describe personal projects I have finished or I have been
+working on.
 
 {% for item in site.projects %}
 
