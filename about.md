@@ -7,9 +7,9 @@ title: About me
 
 ### Whoami
 
-| Avatar | Real me |
-| ---    | ---     |
 | ![Avatar de Jorge Moratilla](/assets/img/jmoratilla.jpg) | ![Foto de Jorge Moratilla](/assets/img/20190327_162655.jpg) |
+| :---:  | :-----: |
+| Avatar | Real me |
 
 #### Facts
 
