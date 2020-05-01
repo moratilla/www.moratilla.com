@@ -19,7 +19,7 @@ Spanish, +40 years old and counting.  Husband, father of 2 kids, and nerd that
 
 #### Social Networks
 
-|[![Github](/assets/img/github.png)](https://github.com/jmoratilla) | [![Twitter](/assets/img/twitter.png)](https://twitter.com/jmoratilla) | [![LinkedIn](/assets/img/linkedin.webp)](https://www.linkedin.com/in/moratilla) |
+| [![Github](/assets/img/github.png)](https://github.com/jmoratilla) | [![Twitter](/assets/img/twitter.png)](https://twitter.com/jmoratilla) | [![LinkedIn](/assets/img/linkedin.webp)](https://linkedin.com/in/moratilla/) |
 
 #### Interests
 
