@@ -7,7 +7,7 @@ title: About me
 
 ### Whoa-mi
 
-| ![Avatar de Jorge Moratilla](/assets/img/jmoratilla.jpg) | ![Foto de Jorge Moratilla](/assets/img/20190327_162655.jpg) |
+| ![Jorge Moratilla's Avatar](/assets/img/jmoratilla.jpg) | ![Jorge Moratilla's real pic](/assets/img/20190327_162655.jpg) |
 | :---:  | :-----: |
 | Avatar | Real me |
 
@@ -59,7 +59,7 @@ I liked grid technologies but unfortunately I couldn't get a chance to work
 In 2011 I moved out from Sun - Oracle world to learn more from startups and
  get a new life as system administrator and agile coach for systems.
 
-I have been working as system administrator, cloud engineer and devops
+I have been working as system administrator, cloud engineer and DevOps
  evangelist since then for companies like Taric, BQ, and Kelisto.  I promoted
  DevOps culture and practices, and the Three Ways as stated in the "The Phoenix
  project" by Gene Kim, Kevin Behr and George Spafford as the way to continuous
