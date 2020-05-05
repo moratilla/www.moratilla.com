@@ -17,7 +17,7 @@ I want a good theme that can be nice in desktop as well as in mobile (responsive
 
 ## Decision
 
-After some time watching themes, I decided to keep using hydejack as my theme.  It was a good decision, as I can do things faster and it makes me feel great.
+After some time watching themes, I decided to keep using [Hydejack](https://hydejack.com) as my theme.  It was a good decision, as I can do things faster and it makes me feel great.
 
 ## Consequences
 

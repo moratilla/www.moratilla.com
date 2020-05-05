@@ -8,7 +8,7 @@ description:
 
 ## Description
 
-On Mondays I open a new TODO list and begin to annotate all the new requesst I
+On Mondays I open a new TODO list and begin to annotate all the new requests I
  have to attend.  Also I keep all the tasks that were not finished on previous
  weeks, just to keep an eye on how much work is still not finished.
 

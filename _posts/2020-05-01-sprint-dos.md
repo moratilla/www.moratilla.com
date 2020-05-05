@@ -45,7 +45,7 @@ I have decided to focus this week in review the state of the PhaserJS project,
  to challenge myself to port some speedlearning games to html5 with the help
  of this framework.
 
-Next week I will focuse in monographics: 
+Next week I will be writting monographics about these topics: 
 
 * CircleCI vs Github Actions
 * VPN with tinc

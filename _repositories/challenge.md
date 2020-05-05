@@ -3,10 +3,10 @@ layout: page
 title: Challenge - Code test
 category: repository
 description: >
-  This code repository was made for a code test for a devops application.
+  This code repository was made for a code test for a DevOps application.
 ---
 
-## Recursos
+## Resources
 
 * [Repository](https://github.com/jmoratilla/devops-challenge.git)
 

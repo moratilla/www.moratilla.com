@@ -41,7 +41,7 @@ First time because of time restrictions, I focused on the standard opensourced
 
 And some commercial tools I was in need to show some relevant features like:
 
-* Observability - NewRelic
+* Observability - New Relic
 * Communication - Slack
 * Log analysis  - Logentries
 * 12 Factor Apps deploys - Heroku
@@ -49,17 +49,17 @@ And some commercial tools I was in need to show some relevant features like:
 ### Second talk
 
 The following talk I was asked to use IBM Tools like Bluemix, Pipeline and
- UrbanCode Deploy to adapt the toolchain to propietary solutions owned by
+ UrbanCode Deploy to adapt the toolchain to proprietary solutions owned by
  IBM.
 
 I learned a lot here, as I was not used to these tools, and it's not common
  for a team to work with commercial apps in our job.
 
-I liked the bluemix platform and the pipeline CI tool.  Easy to use and very
+I liked the IBM Bluemix platform and the pipeline CI tool.  Easy to use and very
  portable to other platforms as they were based on the Cloud Foundry foundation.
 
 Also the IBM UrbanCode Deploy tool is a planning tool for deploy code.  You can
- manage systems with agents and create a catalogue of applications and resources
+ manage systems with agents and create a catalog of applications and resources
  so you can schedule an automatic deployment, and follow all the aspects of the
  deployment process.  Open issues, see reports, check versions deployed...
 

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: D-Trace Tutorial
+title: DTrace Tutorial
 category: talk
 date: 2014-04-03
-community: Shuttlecloud
+community: ShuttleCloud
 description: >
-  Shuttlecloud invited me to talk about dynamic tracing tools at their office.
+  ShuttleCloud invited me to talk about dynamic tracing tools at their office.
 ---
 
 ## Resources
@@ -17,19 +17,19 @@ description: >
 I was moving from Abstra-Taric to BQ, when an interesting proposal hit my inbox.
   Was I able to teach a lesson about Dynamic Tracing for a IT team that was
  involved in a real problem?  Nice time to spend a morning with nice people
- talking about real problems, performance issues, and dtrace.
+ talking about real problems, performance issues, and DTrace.
 
-Here was the Table of  Contents of the talk.
+Here was the Table of Contents for the talk.
 
     TUTORIAL DTRACE
 
-    Este tutorial tiene como proposito enseñar a utilizar la herramienta dtrace.
+    Este tutorial tiene como proposito enseñar a utilizar la herramienta DTrace.
 
     INDICE
     ======
 
     1. Breve evolución de los sistemas de debugging en caliente
-    1.1. De sar a dtrace y lttng
+    1.1. De sar a DTrace y lttng
     2. Problemas del dia a dia
     3. Dtrace, la solucion de Sun Microsystems
     4. Casos de uso comunes

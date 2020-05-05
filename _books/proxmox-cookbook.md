@@ -21,7 +21,7 @@ Starting with a step-by-step installation of Proxmox nodes along with an illustr
 
 Monitoring resources and virtual machines is required on an enterprise level, to maintain performance and uptime; to achieve this, we learn how to monitor host machine resources and troubleshoot common issues in the setup. Finally, we will walk through some advanced configurations for VM followed by a list of commands used for Proxmox and Ceph cluster through CLI.
 
-With this focused and detailed guide you will learn to work your way around with Proxmox VE quickly and add to your skillset.
+With this focused and detailed guide you will learn to work your way around with Proxmox VE quickly and add to your skill set.
 
 ## Features
 

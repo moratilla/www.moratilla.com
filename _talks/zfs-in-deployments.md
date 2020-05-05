@@ -12,10 +12,10 @@ description: >
 
 * [Slides](https://www.slideshare.net/jmoratilla/charla-madrid-devops-junio-2011-zfs-en-despliegues)
 
-## Descripción
+## Description
 
 My first talk for the [Madrid DevOps](https://madrid.devops.es/) community.  It was about the ZFS filesystem
- and the benefits to use it in production environment and other scenarios.
+ and the benefits to use it in production environments and other scenarios.
 
 The talk was shared with the help of Miguel Angel Tarazaga (@miguitas) who talked
  about an alternative file system called BTRFS, very similar to ZFS.
