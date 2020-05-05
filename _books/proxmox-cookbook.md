@@ -19,7 +19,7 @@ Proxmox VE's intuitive interface, high availability, and unique central manageme
 
 Starting with a step-by-step installation of Proxmox nodes along with an illustrated tour of Proxmox graphical user interface where you will spend most of your time managing a cluster, this book will get you up and running with the mechanisms of Proxmox VE. Various entities such as Cluster, Storage, and Firewall are also covered in an easy to understand format. You will then explore various backup solutions and restore mechanisms, thus learning to keep your applications and servers safe. Next, you will see how to upgrade a Proxmox node with a new release and apply update patches through GUI or CLI.
 
-Monitoring resources and virtual machines is required on an enterprise level, to maintain performance and uptime; to achieve this, we learn how to monitor host machine resources and troubleshoot common issues in the setup. Finally, we will walk through some advanced configurations for VM followed by a list of commands used for Proxmox and Ceph cluster through CLI.
+Monitoring resources and virtual machines is required on an enterprise level, to maintain performance and Uptime; to achieve this, we learn how to monitor host machine resources and troubleshoot common issues in the setup. Finally, we will walk through some advanced configurations for VM followed by a list of commands used for Proxmox and Ceph cluster through CLI.
 
 With this focused and detailed guide you will learn to work your way around with Proxmox VE quickly and add to your skill set.
 

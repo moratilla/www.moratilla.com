@@ -8,7 +8,7 @@ Accepted
 
 ## Context
 
-The current version of the system is hosted by blogspot.  I don't like to keep
+The current version of the system is hosted by Blogger.  I don't like to keep
  using it as I would like to do something by myself.
 
 But what to do? a Wordpress? Recently I have been working in a Wordpress site

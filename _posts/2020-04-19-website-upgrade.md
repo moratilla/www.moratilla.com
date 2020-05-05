@@ -36,7 +36,7 @@ It won't stop here.  I have been working to implement more stuff.  Things
   I wanted to release the new site this weekend.  
 * **Categories and Tags**.  Add a way to access content by category or tag.
 * **New Collection: Projects**.  I will be adding my personal projects here as a portfolio.
-* **CI step for testing link references**.  One of the advantages for using CI is that testing must ensure the final product has been tested from the begining to detect in the early stages any error, bug or bad syntax that can affect in production.  I have planned to work on testing when I finally solve an issue with the html-proofer gem.
+* **CI step for testing link references**.  One of the advantages for using CI is that testing must ensure the final product has been tested from the beginning to detect in the early stages any error, bug or bad syntax that can affect in production.  I have planned to work on testing when I finally solve an issue with the html-proofer gem.
 
 
 
