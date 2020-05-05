@@ -12,19 +12,19 @@ The purpose is to maintain a web site more easily using the tools I frequently
 This version of the website is based on [Jekyllrb](https://jekyllrb.com/) static
  website generator.
 
-Previous version was based on Google blogspot and the first version was done
- using last versions of mambo cms and first versions of joomla.
+Previous version was based on Google Blogger and the first version was done
+ using last versions of MamboCMS and first versions of JoomlaCMS.
 
-To resume the changelog:
+To summarize the change log:
 
-1. **Website running now on Jekyll 3.8.x**.  Tried to work with github pages,
+1. **Website running now on Jekyll 3.8.x**.  Tried to work with Github pages,
  but  desisted as the theme I wanted to use depends on gem versions that were in 
  conflict with the gems supported by github pages.
 2. **New content**.  I have moved from a blog site to a website with
  documentation pages and blog posts.  I want to include more content in a future 
- and I was not satisfied with blogspot.
-3. **English**.  The new website is built in english.  This will be the main 
- language of my content, but some posts will remain in spanish.
+ and I was not satisfied with Blogger.
+3. **English**.  The new website is built in English.  This will be the main 
+ language of my content, but some posts will remain in Spanish.
 4. **CI**.  The new site is built using a CI/CD toolchain to allow me keep my hands dirty on DevOps practices.  Currently the solution is based on git, circleci, aws s3, and cloudflare CDN.
 
 ### One more thing

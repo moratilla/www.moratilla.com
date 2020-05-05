@@ -5,7 +5,7 @@ category: talk
 date: 2014-03-26
 community: PostgreSQL España, Madrid DevOps
 description: >
-  My first colaboration between two communities: PostgreSQL España and Madrid DevOps.
+  My first collaboration between two communities: PostgreSQL España and Madrid DevOps.
   I was invited by Alvaro Hernandez to talk about how to use Docker as a container for
   PostgreSQL development.
 ---

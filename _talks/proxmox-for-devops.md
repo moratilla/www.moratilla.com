@@ -21,7 +21,7 @@ I introduce here the audience to a virtualization product called proxmox, that
  to provide a way to deliver computing power to the Development and QA team.
 
 Proxmox helped me to go from a golden image, badly maintained by developers, to
-containers (using openvz), so we could implement a fast CI system that allowed
+containers (using OpenVZ), so we could implement a fast CI system that allowed
 us to develop and test code faster.
 
 At the end, I introduced a gem I created for Chef and its CLI tool: [knife-proxmox](https://bitbucket.org/jmoratilla/knife-proxmox/src/master/)

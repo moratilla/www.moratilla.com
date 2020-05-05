@@ -4,7 +4,7 @@ title: knife-proxmox
 category: project
 published: true
 description: >
-  I was working in optimizing a chef server to provision on my proxmox cluster when I wondered if there was any module that will ease my job.  As there was none, I wrote one and published as gem.
+  I was working in optimizing a chef server to provision on my Proxmox cluster when I wondered if there was any module that will ease my job.  As there was none, I wrote one and published as gem.
 ---
 
 ## Resources
@@ -20,9 +20,9 @@ In 2012 I started to work with chef, a configuration management solution, for
 
 Abstra and Taric had chef installations and I was not very satisfied with them, as
  they were installed as prototypes and were not refactored to keep deployments 
- unified.  So I moved all the legacy code to a new chef server intallation and
+ unified.  So I moved all the legacy code to a new chef server installation and
  upgraded all the recipes to allow the maintaining of the service.  Also, I came
- up with the neccessity of a faster way to test my recipes and deployments.
+ up with the necessity of a faster way to test my recipes and deployments.
   OpenVZ were containers, faster than Virtual Machines, so I started to work with
  them and found them very useful.
 

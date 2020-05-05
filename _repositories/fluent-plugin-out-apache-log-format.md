@@ -3,10 +3,10 @@ layout: page
 title: Fluent output plugin from custom log to Apache Common Combined Log format
 category: repository
 description: >
-  An output plugin for fluent made to convert custom logs to apache log format
+  An output plugin for fluent made to convert custom logs to Apache log format
 ---
 
-## Recursos
+## Resources
 
 * [Repository](https://github.com/jmoratilla/fluent-plugin-out-apache-log-format)
 

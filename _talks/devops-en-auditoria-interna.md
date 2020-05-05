@@ -19,10 +19,10 @@ description: >
 The story behind this talk is more interesting than the talk itself, so I'm 
  including it here.
 
-At the begining, the talk was going about what was expected from the DevOps 
+In the beginning, the talk was going about what was expected from the DevOps 
  Culture by an auditor point-of-view.  A bank like BBVA has many projects and
  several teams working.  And all the work must be audited to comply with laws
- and other internal compliances.  So, how BBVA is coping with Agile projects?
+ and internal normative.  So, how BBVA is coping with Agile projects?
 
 That was the initial proposal.  Unfortunately the first part of the talk was not
  what we were expecting, but a short introduction about why BBVA needs to hire

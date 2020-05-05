@@ -7,9 +7,9 @@ description: >
   This is a small sample written in PhaserJS
 ---
 
-## Recursos
+## Resources
 
-* [Repository](https://github.com/jmoratilla/fluent-plugin-out-apache-log-format)
+* [Repository](https://bitbucket.org/jmoratilla/js-html5-tutorial/src/master/)
 
 ## Description
 

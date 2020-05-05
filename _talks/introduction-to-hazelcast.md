@@ -14,7 +14,7 @@ description: >
 
 This time I used a mindmap in Xmind.net.
 
-## Descripción
+## Description
 
 This talk introduces a Distributed Hash Table in memory called [Hazelcast](https://hazelcast.org).
   It is a java database in memory that distributes its data between several
