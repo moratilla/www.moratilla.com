@@ -23,7 +23,7 @@ Things accomplished in the second sprint:
 
 * Create collection for projects
 * Sort talks collection by year
-* Add a post_deploy step that invalidates cloudflare's cache
+* Add a post_deploy step that invalidates Cloudflare's cache
 
 These were included in the previous post, but since then, I have finished these:
 
