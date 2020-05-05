@@ -11,6 +11,9 @@ description: >
 
 * [Repository](https://github.com/jmoratilla/knife-proxmox)
 
+
+## Description
+
 In 2012 I started to work with chef, a configuration management solution, for 
  a company called Abstra.cc, subsidiary of another company called Taric.es.
   Abstra was in need of a quick way to build and test the code of its products,
