@@ -1,5 +1,6 @@
 #!/bin/bash
 
+REPO_DIR=${CIRCLE_WORKING_DIRECTORY:.}
 SPELL=`which aspell`
 E_FILE=$PWD/errors
 
@@ -18,7 +19,7 @@ fi
 for i in `find . -name "*.md"`
 do
   echo "File $i:" >> errors
-  ${SPELL} -M --home-dir=. list < $i >> ${E_FILE}
+  ${SPELL} --home-dir=${REPO_DIR} list < $i >> ${E_FILE}
 done
 
 if [ -s ${E_FILE} ]
