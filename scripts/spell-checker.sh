@@ -15,7 +15,7 @@ then
   exit 1
 fi
 
-for i in `find . -name "*.md"`
+for i in `find . -name "*.md" -not -path "*/vendor/*"`
 do
   echo "File $i:" >> errors
   ${SPELL} --home-dir=${PWD} list < $i >> ${E_FILE}
