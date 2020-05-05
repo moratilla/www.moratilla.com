@@ -16,7 +16,7 @@ jobs:
             - rubygems-v1-fallback
       - run:
           name: Install aspell
-          command: apt-get install aspell libaspell-dev
+          command: sudo apt-get install aspell libaspell-dev
       - run:
           name: Execute aspell checker
           command: sh ./scripts/spell-checker.sh
