@@ -25,6 +25,6 @@ if [ -s ${E_FILE} ]
 then
   echo "There are errors to fix.  Exitting..."
   cat ${E_FILE}
-  exit 256
+  exit 1
 fi
 
