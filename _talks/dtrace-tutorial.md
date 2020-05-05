@@ -30,12 +30,12 @@ Here was the Table of Contents for the talk.
 
     1. Breve evolución de los sistemas de debugging en caliente
     1.1. De sar a DTrace y lttng
-    2. Problemas del dia a dia
-    3. Dtrace, la solucion de Sun Microsystems
+    2. Problemas del día a día
+    3. DTrace, la solución de Sun Microsystems
     4. Casos de uso comunes
-    5. Que mas cosas
+    5. Qué mas cosas
     6. Alternativas en Linux
-    6.1. Los clasicos
+    6.1. Los clásicos
     6.2. lsof, strace, ptrace, utrace
     6.3. systemtap
     6.4. lttng
