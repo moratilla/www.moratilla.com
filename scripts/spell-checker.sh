@@ -17,14 +17,9 @@ fi
 
 for i in `find . -name "*.md" -not -path "*/vendor/*"`
 do
-  echo "File $i:" >> errors
-  ${SPELL} --home-dir=${PWD} list < $i >> ${E_FILE}
+  echo "File $i:"
+  ${SPELL} --encoding=UTF-8 --home-dir=${PWD} list < $i
 done
 
-if [ -s ${E_FILE} ]
-then
-  echo "There are errors to fix.  Exitting..."
-  cat ${E_FILE}
-  exit 1
-fi
+
 
