@@ -27,7 +27,7 @@ A rare opportunity to be back at teaching for the enterprise.  ProductLancers
 
 ### First talk
 
-First time because of time restrictions, I focused on the standard opensourced
+First time because of time restrictions, I focused on the standard open source
  tools, like:
 
 * git

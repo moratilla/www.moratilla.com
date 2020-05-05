@@ -6,6 +6,7 @@ ADR
 ADR's
 Amstrad
 Analytics
+API
 baseurl
 BBVA
 Behr
@@ -23,6 +24,7 @@ COVID
 CPC
 deployable
 DevOps
+DNS
 DHT
 DTrace
 endfor
@@ -30,10 +32,13 @@ Entropia
 ESXi
 Github
 Grafana
+HAProxy
+Hazelcast
 heroku
 HotJar
 href
 html
+HTML
 HTTPS
 Hugo
 Hydejack
@@ -74,6 +79,7 @@ Moratilla's
 nginx
 NIS
 NOSQL
+NoSQL
 Nygard
 Observability
 OpenSolaris
@@ -111,6 +117,7 @@ toolset
 UrbanCode
 url
 VE
+VM
 VMware
 VPNs
 Wasim

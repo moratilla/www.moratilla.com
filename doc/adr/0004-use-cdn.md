@@ -16,7 +16,7 @@ The website it's going to be cheap and easy to manage and deploy.  That's for su
 
 IPFS sounds great, but I don't know anything about how to deploy or manage it.
 
-I want to use Clodflare's DNS and CDN capabilities for the final product.  But what other
+I want to use Cloudflare's DNS and CDN capabilities for the final product.  But what other
  things I can do with Cloudflare?
 
 ## Consequences

@@ -36,14 +36,14 @@ In the second sprint I have finished by now the following:
 
 * Create collection for projects
 * Sort talks collection by year
-* Add a post_deploy step that invalidates cloudflare's cache
+* Add a post_deploy step that invalidates Cloudflare's cache
 
 As you can see, there are lots of interesting things that can be described in a 
  full post.  By now I will finish the tasks I compromised and then I will write
  posts for the things I consider more relevant for the future me.
 
 Then, I am not only working in the site, but also I am working in Kubernetes.  
-  I have been working with kops on AWS for a while, but now it's time to build my own three cluster with kubeadm running on kvm, and haproxy as external reverse proxy, I need to deep down on several technologies internal to Kubernetes before I feel satisfied with my cluster.
+  I have been working with kops on AWS for a while, but now it's time to build my own three cluster with kubeadm running on KVM, and HAProxy as external reverse proxy, I need to deep down on several technologies internal to Kubernetes before I feel satisfied with my cluster.
 
 And that's all for this week, at least for summarize it.
 

@@ -42,10 +42,10 @@ I postponed a story to collect all tags and categories and group them into an
 I have decided to focus this week in review the state of the PhaserJS project,
  a framework for game development in JavaScript.  I used it years ago, and it's
  still evolving, so looking something for self-motivation, I have been looking
- to challenge myself to port some speedlearning games to html5 with the help
+ to challenge myself to port some speed learning games to HTML5 with the help
  of this framework.
 
-Next week I will be writting monographics about these topics: 
+Next week I will be writing monographics about these topics: 
 
 * CircleCI vs Github Actions
 * VPN with tinc
