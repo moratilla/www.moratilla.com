@@ -29,9 +29,10 @@ Entonces el otro día se nos ocurrió una idea muy buena para mejorar el juego d
  tirada?
 
 Entonces establecimos una tirada de trampas.  Para hacer que fuera frecuente,
- si al mover la ficha, el jugador saca un número impar (1,3,5), entonces hace 
- trampas y vuelve a tirar el dado, donde el resultado se compara con la siguiente
- tabla:
+ si al mover la ficha, el jugador saca un número impar (1,3,5) en la última tirada,
+ después de una serie de 6's por ejemplo, o después de una oca, puente o dados, 
+ entonces hace trampas y vuelve a tirar el dado, donde el resultado se compara con 
+ la siguiente tabla:
 
 | Valor |  Acción |
 | :---: | :------ |
