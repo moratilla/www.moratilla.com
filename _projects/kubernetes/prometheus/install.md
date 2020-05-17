@@ -1,27 +1,12 @@
 ---
 layout: page
 title: Install Prometheus and Grafana
-category: project
 published: true
 ---
 
 ## Install Prometheus in kuberntes with helm
 
-To install it you need to download the values template first, and modify the parameters to enable / disable the alertmanager, and to set the persistentvolume of the alertmanager and server instances.
-
-  ```
-  helm get values stable/prometheus
-  ```
-
-For testing purposes, you can go forward without persistenVolumes in server and alertmanager, so just with the helm chart and the modified values.yaml is enough.
-
-  ```
-  kubectl create namespace monitoring
-  helm upgrade --install --namespace monitoring prometheus stable/prometheus -f values.yaml
-  ```
-
-
-But if you want to deploy to production, use the kube-prometheus. 
+If you want to deploy to production, use the kube-prometheus. 
 
   ```
   git clone https://github.com/coreos/kube-prometheus.git

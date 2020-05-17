@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Install Kubernetes Ingress
-category: project
 published: true
 ---
 

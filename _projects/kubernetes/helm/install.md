@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Install Helm
-category: project
 published: true
 ---
 

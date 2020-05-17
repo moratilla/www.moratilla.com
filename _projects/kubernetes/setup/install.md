@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Setup Kubernetes
-category: project
 published: true
 ---
 
@@ -13,25 +12,25 @@ published: true
 
 3. update system
 
-  1. add universe repository
+  3.1. add universe repository
 
-    echo "deb http://archive.ubuntu.com/ubuntu bionic universe" >> /etc/apt/sources.list
+      echo "deb http://archive.ubuntu.com/ubuntu bionic universe" >> /etc/apt/sources.list
 
-  2. update
+  3.2. update
 
-    apt update
-    apt upgrade
+      apt update
+      apt upgrade
 
-  3. (proxmox-guest) install the qemu-guest-agent package
+  3.3. (proxmox-guest) install the qemu-guest-agent package
 
-    apt-get install -y qemu-guest-agent
+      apt-get install -y qemu-guest-agent
 
-  4. reboot
+  3.4. reboot
 
-    sync
-    reboot
+      sync
+      reboot
 
-4. let iptables see bridged traffic
+4. Let iptables see bridged traffic
 
   ```
   cat <<EOF | sudo tee /etc/sysctl.d/k8s.conf
@@ -41,7 +40,7 @@ published: true
   sudo sysctl --system
   ```
 
-5. remove swap filesystems
+5. Remove swap filesystems
 
   ```
   swapoff -a
@@ -50,30 +49,30 @@ published: true
 
 6. Install Docker container runtime
 
-  1. Install software properties management package
+6.1. Install software properties management package
 
     apt-get update && apt-get install -y \
       apt-transport-https ca-certificates curl software-properties-common gnupg
 
-  2. Add Docker CE's GPG key
+6.2. Add Docker CE's GPG key
   
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
 
-  3. Add Docker apt repository
+6.3. Add Docker apt repository
 
     add-apt-repository \
       "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
         $(lsb_release -cs) \
         stable"
 
-  4. Install Docker CE
+6.4. Install Docker CE
 
     apt-get update && apt-get install -y \
       containerd.io=1.2.13-1 \
       docker-ce=5:19.03.8~3-0~ubuntu-$(lsb_release -cs) \
       docker-ce-cli=5:19.03.8~3-0~ubuntu-$(lsb_release -cs)
 
-  5. Setup the daemon
+6.5. Setup the daemon
 
     cat > /etc/docker/daemon.json <<EOF
     {
@@ -88,7 +87,7 @@ published: true
 
     mkdir -p /etc/systemd/system/docker.service.d
 
-  6. Restart Docker daemon.
+6.6. Restart Docker daemon.
 
     systemctl daemon-reload
     systemctl restart docker
@@ -110,16 +109,16 @@ published: true
 
 9. Use Kubeadm to create control plane
 
-  1. Select the network pod (with Calico)
+9.1. Select the network pod (with Calico)
 
     kubeadm init --pod-network-cidr=192.168.0.0/16
     kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
   
-  2. Install the calico CLI (calicoctl as kubernetes pod)
+9.2. Install the calico CLI (calicoctl as kubernetes pod)
 
     kubectl apply -f https://docs.projectcalico.org/manifests/calicoctl-etcd.yaml
   
-  3. Execute commands with calicoctl
+9.3. Execute commands with calicoctl
 
     kubectl exec -ti -n kube-system calicoctl -- /calicoctl get profiles -o wide
 

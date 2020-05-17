@@ -10,8 +10,9 @@ working on.
 
 {% for item in site.projects %}
 
+{% if item.category == "project" %}
 <h2><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></h2>
-
 <p class="post-excerpt">{{ item.description | truncate: 160 }}</p>
+{% endif %}
 
 {% endfor %}  
