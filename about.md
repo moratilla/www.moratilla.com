@@ -5,7 +5,7 @@ title: About me
 
 ## Biography
 
-### Whoa-mi
+### Who-am-i
 
 | ![Jorge Moratilla's Avatar](/assets/img/jmoratilla.jpg) | ![Jorge Moratilla's real pic](/assets/img/20190327_162655.jpg) |
 | :---:  | :-----: |
