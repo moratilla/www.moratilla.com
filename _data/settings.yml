@@ -2,3 +2,4 @@
 footer:
   - { text: "Cookie Policy", link: '/cookie-policy/'}
   - { text: "Contact", link: '/about/'}
+  - { text: "Status", link: 'https://status.moratilla.com/'}
