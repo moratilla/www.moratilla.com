@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.8.6"
+gem "jekyll", "~> 4.2.0"
 
 # I'm using this hidejack theme
-gem "jekyll-theme-hydejack"
+gem "jekyll-theme-hydejack", "~> 9.0.4"
 
 # Test links and HTML validity
 gem "html-proofer"
@@ -22,7 +22,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem "tzinfo", "~> 1.2"
+  gem "tzinfo", "~> 2.0.4"
   gem "tzinfo-data"
 end
 

@@ -4,7 +4,7 @@ title: Logbook - 007 Retrospectiva 2020 (ESP)
 categories: [personal]
 ---
 
-
+![Xmas tree at Hospital La Paz](/assets/img/20201213_hlpaz-min.jpg){:.lead}
 
 El año 2020 se acaba y es hora de realizar un repaso de los objetivos definidos
  a principios de año y contrastar las espectativas con la realidad.
