@@ -111,3 +111,7 @@ sass:
 
 hydejack:
   use_lsi: true
+  no_navbar: true
+  no_search: true
+  use_lsi: true
+  cookies_banner: true
