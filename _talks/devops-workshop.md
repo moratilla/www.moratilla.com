@@ -25,6 +25,10 @@ A rare opportunity to be back at teaching for the enterprise.  ProductLancers
  into several teams and promote IBMs teams to use their own tools 
  (IBM Bluemix / Cloud).
 
+![](/assets/img/2017-01-25-devops-workshop.jfif){:.lead}
+Thanks to @josecarlosdiaz
+
+
 ### First talk
 
 First time because of time restrictions, I focused on the standard open source
