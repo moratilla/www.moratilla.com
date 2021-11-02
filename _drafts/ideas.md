@@ -4,6 +4,10 @@
 
 * monographic about windows + wsl2 + docker
 
+* monographic about sidekick browser
+
+* monographic about use of brainwaves
+
 * experience with AWS ECS
 
 * experiences with Netdata
