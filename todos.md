@@ -14,10 +14,15 @@ On Mondays I open a new TODO list and begin to annotate all the new requests I
 
 Each TODO list has a table with the following fields:
 
-|Status | Priority | Task | Urgency | Outcomes | Costs |
+*UPDATE*: I have changed the format to match the current format I use at work.
+
+
 |Status | Priority | Who  | Task | Time |
 | ----: | ---------: | ------------ | ------- | :--------: |
 | -, WIP, Done, Canceled |   100 | Me | What to do | 30m, 1h |
+
+Who means the subject of the task to do.  It can be "personal" or "project" or "person X".
+
 
 ## TODOs
 
