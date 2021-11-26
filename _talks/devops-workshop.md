@@ -8,8 +8,6 @@ description: >
   A three day course about DevOps toolchain and other topics for IBM
 ---
 
-{:toc}
-
 ## Resources
 
 * [laboratory](https://github.com/devops-studentXX/lab02)
