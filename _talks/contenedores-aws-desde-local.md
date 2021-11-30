@@ -1,12 +1,12 @@
 ---
 layout: page
-title: OC Talk - Usa contenedores de Amazon desde tu local
+title: OC Talk Usa contenedores de Amazon desde tu local
 category: talk
 date: 2021-11-26
 community: Oneclick
 description: >
-  In Oneclick I quickly offered myself to talk about how developers can make use of
-  AWS resources to run applications in AWS ECS
+  In Oneclick I quickly offered myself to talk about how developers
+  can make use of AWS resources to run applications in AWS ECS
 ---
 
 ## Resources
@@ -15,8 +15,7 @@ description: >
 
 ## Description
 
-
-Here was the Table of Contents for the talk.  
+Here it is the table of contents:  
 
     1. Goal
     2. How to access AWS
@@ -36,7 +35,9 @@ Here was the Table of Contents for the talk.
     16. ECS-CLI: watching running tasks in a cluster
     17. ECS-CLI: watching logs of a running task in a cluster
   
-It was an introduction to the elastic architecture and how developers can run a build, deploy, and get status and logs.
+It was an introduction to the elastic architecture that we use to run 
+ our applications and how developers can run a build, deploy, and get 
+ status and logs.
 
-One hour and a half and I still believe I could keep talking more about more things we could do.
+One hour and a half and I believe I could keep talking more about more things we could do.
 
