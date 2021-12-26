@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "www.moratilla.com.fullname" . }}
+  labels:
+    {{- include "www.moratilla.com.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "www.moratilla.com.selectorLabels" . | nindent 4 }}
