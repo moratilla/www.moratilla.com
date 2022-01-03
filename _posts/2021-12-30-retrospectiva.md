@@ -23,7 +23,7 @@ Ha sido un año muy bueno para ponerme un poco más en forma.  Gracias a
 
 * Ejercitar el cuerpo
 
-No sólo eso, este año también me comprometí a patinar, y este verando he 
+No sólo andar, este año también me comprometí a patinar, y este verando he 
  estado patinando todos los días en mis vacaciones, y ahora, salvo que el
  tiempo me lo impida, sigo saliendo los fines de semana.
 
@@ -33,7 +33,7 @@ Durante el verano también aproveché para nadar y bucear.  He conseguido
 
 De hecho, me gustó tanto la experiencia que estuve mirando cómo aumentar mi capacidad de apnea, siguiendo esta [guía](https://espesca.com/tecnicas-apnea-como-aguantar-mas-tiempo-la-respiracion/).
 
-Mi actual marca es de 2'50".  No he seguido con ello.
+Mi actual marca es de 2'50".  Aunque no he seguido con ello, pero a lo largo del año que empieza, pienso volver a ello.
 
 * Hacer una revisión médica completa
 
@@ -42,20 +42,23 @@ Análisis realizados y un cuerpo en las condiciones que esperaba.  Bien
 
 * Transformar mi trabajo para que resulte más sencillo y enseñarlo a otros
 
-Aquí se me ha ido todo el año.  He consolidado las plataformas de desarrollo, unificando varios proyectos en clusters de AWS ECS compartidos.  También he consolidado las bases de datos, usando AWS Aurora MySQL serverless con bastante buenos resultados.
+Aquí se me ha ido todo el año.  He consolidado las plataformas de desarrollo, unificando varios proyectos en clusters de AWS ECS compartidos.  Se han unificado los criterios a la hora de usar Terraform y Ansible. También he consolidado las bases de datos, usando AWS Aurora MySQL serverless con bastante buenos resultados.
 
-He dado un workshop a desarrolladores para que puedan acceder a los recursos de AWS desde su propia línea de comandos y hemos hecho pruebas de simplificar algunos procesos de construcción.  También se han mejorado las notificaciones de las construcciones y despliegues.  Se han hecho pruebas para optimizar la velocidad de estos pipelines.
+He dado un workshop a desarrolladores para que puedan acceder a los recursos de AWS desde su propia línea de comandos y hemos hecho pruebas de simplificar algunos procesos de construcción.  También se han mejorado las notificaciones de las construcciones y despliegues.  Se han hecho pruebas para optimizar la velocidad de estos pipelines implementando cachés.
 
 Y también he trabajado mucho en la implantación de soluciones de monitorización, con el fin de controlar un parque de servidores legacy y evitar sorpresas.
 
+Otras mejoras, esta vez personales, vienen de implementar una mejor gestión de tareas, y pasando de usar una mera lista diaria, a un [Bullet Journal](https://bulletjournal.com/) para mejorar la productividad.  En 2021 he leído, me he informado, y me he formado opinión al respecto.  Este 2022 será cuando empiece a aplicarlo.
+
+
 * Cuidar de la familia
 
-Hemos hecho más cosas y hemos visitado más sitios que otros años.  Lo hemos pasado muy bien, probando lugares nuevos este verano.
+Hemos hecho más cosas y hemos visitado más sitios que otros años.  Lo hemos pasado muy bien, probando lugares nuevos este verano.  Desgraciadamente no fue iniciativa por el deseo positivo de cambiar, sino por todo lo ocurrido en el Mar Menor este año.
 
 * Terminar el curso de piano
 
 Lo he disfrutado.  Sigo con ello, practicando de vez en cuando.  Ya voy haciendo pinitos a dos manos, pero cuesta por falta de constancia.
-He decidido tomar otro curso online, y me he habilitado una tablet para visualizar mejor los videos mientras practico.
+He decidido tomar otro curso online, y me he habilitado una tablet para visualizar mejor los videos mientras practico.  He descubierto este servicio [musescore.com](https://musescore.com), que viene genial para obtener partituras, y practicarlas.
 
 * Vigilar la economía
 
