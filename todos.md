@@ -17,6 +17,13 @@ Each TODO list has a table with the following fields:
 *UPDATE*: I have changed the format to match the current format I use at work.
 
 
+*2022-02*: I have changed it again after reading the book "[The Bullet Journal Method](https://bulletjournal.com/)"
+{:.note title="Attention"}
+
+From now on, I will update my todo list monthly, and I will remove the "Who" and "Time" fields.  As I'm not using it for my daily work, then I'm only typing here my commitments for the current month.
+
+
+
 |Status | Priority | Who  | Task | Time |
 | ----: | ---------: | ------------ | ------- | :--------: |
 | -, WIP, Done, Canceled |   100 | Me | What to do | 30m, 1h |
