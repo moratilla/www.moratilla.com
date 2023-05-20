@@ -13,9 +13,9 @@ title: About me
 
 #### Facts
 
-Spanish, +40 years old and counting.  Husband, father of 2 kids, and nerd that
- spends all his free time tinkering with computers.  My curiosity is vastly
- larger than my available time, but I like to research and try new things.
+Spanish, +45 years old and counting.  Husband, father of 2 kids, and nerd. I
+ spend all my free time tinkering with computers.  My curiosity is vastly
+ larger than my available time. I'm always looking and trying new things.
 
 #### Social Networks
 
@@ -50,7 +50,7 @@ Then I worked for Sun Microsystems as certified instructor and field engineer,
 
 As instructor I was involved in systems, identity and web technologies mostly
  all the time.  But also taught databases (MySQL) and rare and weird custom
- courses (like NIS+ for a ship, or how to Linux on a S390 system).
+ courses (like NIS+ for a ship, or how to use Linux on a S390 system).
 
 I liked grid technologies but unfortunately I couldn't get a chance to work
  professionally on it, but I did several personal side projects using Sun Grid
@@ -59,11 +59,9 @@ I liked grid technologies but unfortunately I couldn't get a chance to work
 In 2011 I moved out from Sun - Oracle world to learn more from startups and
  get a new life as system administrator and agile coach for systems.
 
-I have been working as system administrator, cloud engineer and DevOps
- evangelist since then for companies like Taric, BQ, and Kelisto.  I promoted
- DevOps culture and practices, and the Three Ways as stated in the "The Phoenix
- project" by Gene Kim, Kevin Behr and George Spafford as the way to continuous
- improvement.
+I have been working since then as system administrator, cloud engineer and DevOps
+ evangelist since then for companies like Taric, BQ, Kelisto, Oneclick and Transparent Intelligence.  I promoted DevOps culture and practices, and the 
+ Three Ways as stated in the "The Phoenix project" by Gene Kim, Kevin Behr and George Spafford as the way to continuous improvement.
 
 I have been in charge of technical projects working in small teams as the PM as
  well as the systems architect because of my experience, but I would like to
@@ -85,5 +83,7 @@ Madrid DevOps coordinator (not currently).  My main work here has been to power
 
 Not very active right now in communities, I used to attend XP and Agile conferences, 
  trying to learn how to be a better facilitator and enforce the DevOps culture at
- my job.
+ my job. 
+ 
+Very fan of FOSDEM and other OpenSource talks and conferences.
 
