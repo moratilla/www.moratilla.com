@@ -5,7 +5,7 @@ jobs:
   build:
     <<: *defaults
     docker:
-      - image: circleci/ruby:2.6
+      - image: cimg/ruby:2.7.8
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
@@ -40,7 +40,7 @@ jobs:
   deploy:
     <<: *defaults
     docker:
-      - image: circleci/python:3.6.3
+      - image: cimg/python:3.10
     environment:
       S3_BUCKET_NAME: www.moratilla.com
     steps:
