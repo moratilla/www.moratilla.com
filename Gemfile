@@ -4,7 +4,7 @@ gem "nokogiri", ">= 1.11.0.rc4"
 gem "jekyll", "~> 4.2.0"
 
 # I'm using this hidejack theme
-gem "jekyll-theme-hydejack", "~> 9.0.4"
+gem "jekyll-theme-hydejack", "~> 9.2.1"
 
 # Test links and HTML validity
 gem "html-proofer"

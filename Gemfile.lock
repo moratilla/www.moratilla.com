@@ -55,7 +55,7 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-theme-hydejack (9.0.4)
+    jekyll-theme-hydejack (9.2.1)
       jekyll (>= 3.8, < 5.0)
       jekyll-include-cache (~> 0.2)
     jekyll-twitter-plugin (2.1.0)
@@ -118,7 +118,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
-  jekyll-theme-hydejack (~> 9.0.4)
+  jekyll-theme-hydejack (~> 9.2.1)
   jekyll-twitter-plugin
   jekyll-youtube
   nokogiri (>= 1.11.0.rc4)
