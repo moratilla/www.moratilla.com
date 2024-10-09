@@ -2,40 +2,45 @@ name: Ruby
 
 on:
   push:
-    branches: [ feat_github_actions ]
+    branches: [feat_github_actions]
   pull_request:
-    branches: [ feat_github_actions ]
+    branches: [feat_github_actions]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Ruby 2.5
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: 2.5.x
-    - name: Build and test with Rake
-      run: |
-        gem install bundler
-        bundle install --jobs 4 --retry 3
-        JEKYLL_ENV=production bundle exec jekyll build --lsi
-    - name: Upload artifact
-      uses: actions/upload-artifact@v1.0.0
-      with:
-        # Artifact name
-        name: site
-        # Directory containing files to upload
-        path: _site
-    - name: Deploy to AWS
-      uses: jakejarvis/s3-sync-action@master
-      with:
-        args: --acl public-read --follow-symlinks --delete
-      env:
-        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: 'eu-west-1'   # optional: defaults to us-east-1
-        SOURCE_DIR: '_site'      # optional: defaults to entire repository
+      - uses: actions/checkout@v2
+      - name: Set up Ruby 2.5
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.5.x
+      - name: Build and test with Rake
+        run: |
+          gem install bundler
+          bundle install --jobs 4 --retry 3
+          JEKYLL_ENV=production bundle exec jekyll build --lsi
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1.0.0
+        with:
+          # Artifact name
+          name: site
+          # Directory containing files to upload
+          path: _site
+      - name: Deploy to AWS
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: "eu-west-1" # optional: defaults to us-east-1
+          SOURCE_DIR: "_site" # optional: defaults to entire repository
+      - name: Invalid cache
+        run: |
+          curl -X POST "https://api.cloudflare.com/client/v4/zones/${CF_DOMAIN}/purge_cache" \
+          -H "X-Auth-Email: ${{ secrets.CF_USERNAME }}" \
+          -H "X-Auth-Key: ${{ secrets.CF_API_KEY }}" \
+          -H "Content-Type: application/json" \
+          --data '{"purge_everything":true}'
