@@ -2,9 +2,9 @@ name: Ruby
 
 on:
   push:
-    branches: [feat_github_actions]
+    branches: [master]
   pull_request:
-    branches: [feat_github_actions]
+    branches: [master]
 
 jobs:
   build:
