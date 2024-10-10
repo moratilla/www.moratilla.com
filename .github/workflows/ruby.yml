@@ -49,3 +49,4 @@ jobs:
           -H "X-Auth-Key: ${{ secrets.CF_API_KEY }}" \
           -H "Content-Type: application/json" \
           --data '{"purge_everything":true}'
+
