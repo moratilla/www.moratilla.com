@@ -19,7 +19,10 @@ Spanish, +45 years old and counting.  Husband, father of 2 kids, and nerd. I
 
 #### Social Networks
 
-| [![Github](/assets/img/github.png)](https://github.com/jmoratilla) | [![Twitter](/assets/img/twitter.png)](https://twitter.com/jmoratilla) | [![LinkedIn](/assets/img/linkedin.webp)](https://linkedin.com/in/moratilla/) |
+| [![Github](/assets/img/github.png)](https://github.com/jmoratilla) | [![LinkedIn](/assets/img/linkedin.webp)](https://linkedin.com/in/moratilla/) |
+
+Note: I don't use Facebook, Twitter or Instagram.  I'm not a fan of social
+ networks, but I use LinkedIn to keep in touch with my professional contacts.
 
 #### Interests
 
@@ -39,7 +42,7 @@ Gamer with no time, I'm mentoring my kids into a great gaming experience, not
 #### Work Experience
 
 Now more than 20 years of working experience, let me to go to the beginning.
-  I just began to work for a small ISDN and RTC Internet provider, developing 
+  I just began to work for a small ISDN and RTC Internet provider, developing
  and deploying systems and services for end users and customers.
 
 Then I worked for Sun Microsystems as certified instructor and field engineer,
@@ -60,7 +63,7 @@ In 2011 I moved out from Sun - Oracle world to learn more from startups and
  get a new life as system administrator and agile coach for systems.
 
 I have been working since then as system administrator, cloud engineer and DevOps
- evangelist since then for companies like Taric, BQ, Kelisto, Oneclick and Transparent Intelligence.  I promoted DevOps culture and practices, and the 
+ evangelist since then for companies like Taric, BQ, Kelisto, Oneclick and Transparent Intelligence.  I promoted DevOps culture and practices, and the
  Three Ways as stated in the "The Phoenix project" by Gene Kim, Kevin Behr and George Spafford as the way to continuous improvement.
 
 I have been in charge of technical projects working in small teams as the PM as
@@ -68,7 +71,7 @@ I have been in charge of technical projects working in small teams as the PM as
  work more in the development side, helping and providing support to others.
 
 Not only that, I have been working with Business Product Owners, providing them
- with tools to get fresh data and reports to get the pulse on the business.  
+ with tools to get fresh data and reports to get the pulse on the business.
 
 As I left the professional teaching, I have been doing some small training
  sessions sometimes, teaching about DevOps and cloud providers.  I enjoy
@@ -81,9 +84,8 @@ Madrid DevOps coordinator (not currently).  My main work here has been to power
  active speaker, working to provide more relevancy to the transforming culture
  than just the technologies used to automate.
 
-Not very active right now in communities, I used to attend XP and Agile conferences, 
+Not very active right now in communities, I used to attend XP and Agile conferences,
  trying to learn how to be a better facilitator and enforce the DevOps culture at
- my job. 
- 
-Very fan of FOSDEM and other OpenSource talks and conferences.
+ my job.
 
+Very fan of FOSDEM and other OpenSource talks and conferences.
