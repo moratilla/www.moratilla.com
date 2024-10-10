@@ -10,6 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7.8
@@ -49,4 +50,3 @@ jobs:
           -H "X-Auth-Key: ${{ secrets.CF_API_KEY }}" \
           -H "Content-Type: application/json" \
           --data '{"purge_everything":true}'
-
