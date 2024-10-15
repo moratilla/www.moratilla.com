@@ -5,6 +5,7 @@ User-agent: bingbot
 Disallow:
 
 User-agent: *
+Crawl-delay: 10
 Disallow: /
 
 Sitemap: https://www.moratilla.com/sitemap.xml
