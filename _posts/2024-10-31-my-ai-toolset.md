@@ -4,10 +4,10 @@ title: My AI toolset for 2024
 categories: [laboratory, AI, tools]
 ---
 
-![Sunrise of Robots](/assets/img/robots.png){:.lead}
-
 As we step into 2024, I'm excited to share my collection of AI tools that have been useful
  in making my day, at work, and personal tasks more efficient.
+
+![Sunrise of Robots](/assets/img/robots.png){:.lead}
 
 I turn on my laptop with ollama started from the login with model llama3.2 3b loaded, which is a great LLM
  for daily interactions. I've been integrating it with anythingLLM to test its
@@ -47,6 +47,7 @@ I'm always on the lookout for new tools and technologies to enhance my workflow,
 - [zed.dev](https://zed.dev)
 - [notebookLM.google.com](https://notebookLM.google.com)
 - [LMStudio](https://LMStudio.ai)
+- [NotebookLM](https://notebookLM.google.com)
 - [Perplexity.ai](https://Perplexity.ai)
 - [morphic.sh](https://morphic.sh)
 - [piclumen.com](https://piclumen.com)
