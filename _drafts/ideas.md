@@ -22,3 +22,4 @@
 
 * Weekly post about nginx, haproxy, traeffik and others
 
+* experience with zerotier VPN
