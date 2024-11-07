@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notes for a future me about MacOS keyboard layouts
+title: Notes for a future me on MacOS keyboard layouts
 categories: [Apple, MacOS, keyboard]
 ---
 
