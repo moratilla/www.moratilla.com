@@ -18,7 +18,7 @@ This is a basic example from phaser, but i have added some elements, like sound 
  leadership board.
 
 <center>
-<iframe src="https://games.moratilla.com/coin-clicker/" allowtransparency="true" width="1024" height="768" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://main.didmq3hmotprh.amplifyapp.com/" allowtransparency="true" width="1024" height="768" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </center>
 
 
