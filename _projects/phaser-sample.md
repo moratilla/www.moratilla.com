@@ -15,7 +15,7 @@ I found several years ago this JavaScript game framework called [PhaserJS](https
 ### Coin clicker
 
 This is a basic example from phaser, but i have added some elements, like sound effects, soundtrack and a classic
- leadership board.
+ leadership board.  Click on the blue screen to start.
 
 <center>
 <iframe src="https://main.didmq3hmotprh.amplifyapp.com/" allowtransparency="true" width="1024" height="768" frameborder="0" scrolling="no" allowfullscreen></iframe>
