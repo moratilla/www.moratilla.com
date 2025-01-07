@@ -4,7 +4,7 @@ title: Logbook - 012 Retrospectiva 2024 (ESP)
 categories: [personal]
 ---
 
-![Foto de portada]{:lead}
+![Foto de portada](assets/img/2024-05-moto.jpg){:lead}
 
 Este año ha sido un año muy intenso.   Estaba revisando las fotos para ver qué poner
  de portada y me doy cuenta de que ha sido un año con muchas cosas buenas, más que las
